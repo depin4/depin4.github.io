@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+  rel="stylesheet"
+  href="style.css"
+  />
+<title>Just For You &#10084</title>
+</head>
+<body>
+<body style="text-align: center;"
+<div>
+<img src="https://raw.githubusercontent.com/DzarelDeveloper/Img/main/gifyou.webp">
+<h1 class="hi">Hi Naila</h1>
+<h2 class="no">Kamu itu cantik banget ini bikin spesial buat kamu</h2>
+<button class="hi" onclick="mau()">Makasih</button>
+<button class="no" onmouseover="gak(this)">GAK</button>
+</div>
+<script>
+function mau() {
+alert("oke makasih");
+alert("kirim pesan ke WhatsApp");
+
+location.assign("https://wa.me/+6289515532749?text=Makasih%20❤️");
+}
+function gak(ini) {
+ini.style.position = "absolute";
+ini.style.left = `${Math.floor(Math.random() * 90)}%`;
+ini.style.top = `${Math.floor(Math.random() * 90)}%`;
+}
+</script>
+</body>
+</html>

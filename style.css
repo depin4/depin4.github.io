@@ -1,0 +1,20 @@
+div {
+    width: 120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+}
+html {
+    background-color: #ffaaca;
+}
+body {
+    background: url(pexel.jpeg);
+    background-size: cover;
+    background-position: center;
+    height : 500px;
+    width : 400px;
+}
+h1, h2 {
+    color: white;
+}
